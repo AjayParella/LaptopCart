@@ -7,6 +7,7 @@ namespace LaptopCart.Controllers
     public class HomeController : Controller
     {
         private readonly IConfiguration _configuration;
+        private readonly ILogger<HomeController> _logger;
 
         public HomeController(IConfiguration configuration)
         {
